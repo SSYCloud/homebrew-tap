@@ -1,25 +1,25 @@
 class BatchjobCli < Formula
   desc "Developer CLI for hosted BatchJob skills"
   homepage "https://github.com/SSYCloud/batchjob-agent-kit"
-  version "0.1.3"
+  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.3/batchjob-cli-darwin-arm64.tar.gz"
-      sha256 "19c804432ab827666cdb6ba5e786fbe02a8e72de3123ef0c0e52c028e98bcf06"
+      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.0/batchjob-cli-darwin-arm64.tar.gz"
+      sha256 "4d7fc335f85fb74205276e9b4f9c251c49baa33d4973146d8fae8c28c8e05c9e"
     else
-      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.3/batchjob-cli-darwin-amd64.tar.gz"
-      sha256 "4dbaff6e682118b14f4b6b2f3411f208889b234a4caf447c48d727bfb7bd76a7"
+      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.0/batchjob-cli-darwin-amd64.tar.gz"
+      sha256 "6de43cc5006909701e236ca95e37dffdd2d1c3444e75ea6b37a4427d03648848"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.3/batchjob-cli-linux-arm64.tar.gz"
-      sha256 "3f673315b5d61124a11bd43b04686be75eef8df1959a86b751640fcb1b784c2d"
+      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.0/batchjob-cli-linux-arm64.tar.gz"
+      sha256 "30b841394ffd3481381294fbf7c1dd57b491abcef498ab76c2486fd5406a40b9"
     else
-      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.3/batchjob-cli-linux-amd64.tar.gz"
-      sha256 "ec7c87126094ace35d2ba885857cb5341e645549f272933aaa2c19bef5e2349b"
+      url "https://github.com/SSYCloud/batchjob-agent-kit/releases/download/v0.1.0/batchjob-cli-linux-amd64.tar.gz"
+      sha256 "00220a423ddab3709518e06f515ef42516014611d78393e6a1429c31556ea79f"
     end
   end
 
